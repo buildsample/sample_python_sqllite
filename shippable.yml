@@ -6,4 +6,6 @@ install: pip install --use-mirrors -r requirements.txt
 script:
   - python sqliteSample.py
 notifications:
-  email: false
+  email: 
+    - vidya@shippable.com
+    - buildsampletest@gmail.com
