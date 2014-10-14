@@ -11,3 +11,5 @@ notifications:
     - vidya@shippable.com
     - buildsampletest@gmail.com
 #cache: true
+after_script:
+  - cp README.md ./shippable
