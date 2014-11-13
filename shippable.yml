@@ -16,3 +16,4 @@ notifications:
 
 after_script:
   - cp README.md ./shippable
+build_image: shippable/minv2:latest
