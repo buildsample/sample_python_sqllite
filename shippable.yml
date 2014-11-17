@@ -14,7 +14,8 @@ notifications:
     - vidya@shippable.com
     - buildsampletest@gmail.com
 #cache: true
-
+archive: true
 after_script:
   - cp README.md ./shippable
-build_image: shippable/minv2:latest
+  
+build_image: shippable/minv2
