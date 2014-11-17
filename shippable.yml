@@ -5,9 +5,12 @@ python:
 language: python
 
 install: pip install --use-mirrors -r requirements.txt
-
+env:
+ - secure: a5ZKbgIne427k2pqJqDr0EvyviAodNqJGaF9e8uJ3BtAyOYi9a4WA++gnu4PP9onJfJJfAvMymiTi7DQ4V39lGZJkETY1cUy0ZOCPtF9brzece4hD51DhrjKDhrhHK+nzviQv4R5ryOMdBiDN4g2ys/IGDxHAWuGeD/U7NygdiServp7lX6g0bwWd20GbA2l7C7hS5RqCUBZDvOO60DPJrJthPIFr3GjwyY+mC0dhkPLiJv/jixcLZkKtH50zElag+zTudJoY8LBduxOVyLnS8DB3cWhymk65EGf1gNatdeVPYUx9UdmuH6HWsMPJ/cgB+F4y0t2H19UV9+6wRDGIw==
+ 
 script:
   - python sqliteSample.py
+  - echo $test
 
 notifications:
   email: 
