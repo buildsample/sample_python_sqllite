@@ -23,5 +23,5 @@ after_script:
   
 build_image: shippable/minv2
 branches:
-  except:
+  only:
     - pr-test-master
