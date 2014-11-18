@@ -5,14 +5,14 @@ python:
 env:
  - secure: PACBN6Iq/IR+gFcxeSca8wgRtjfzDQZdaBVhlGSLLVqW2d9aV1PL63g7W3iYeLQuY8qb3Eq8zDq3Vc+t8bUnyRVg1JVufotZgWvIvCXLnp9wOk/D6KCxouj4CR1YGII4JKa8PAOVdd56CI91JskOTcGLfVQZaajKcgHVkhlJBZix5jovokELjls9RXoIOopSvYaU7oSV19c2bZHaQT1cjooMJVakVhdbmeT6XeH+eMkvISPwnLrIYzMex097UTwyVvVfzBo63FSbS3BiGa8u6XnPIoNDlr8l2rQWK6ebEfU0nscVW8R5NtRy0tuqHYDMThRIX85jpwj5KGMkeO/JYg==
 
-language: python
+language: tpython
 
 
 install: pip install --use-mirrors -r requirements.txt
 
 
 
-script
+script:
   - python sqliteSample.py
   - echo $test
 
