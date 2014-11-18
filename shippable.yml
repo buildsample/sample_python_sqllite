@@ -8,21 +8,16 @@ env:
 
 language: python
 
-
 install: pip install --use-mirrors -r requirements.txt
-
-
 
 script:
   - python sqliteSample.py
   - echo $test
 
-
 notifications:
   email: 
     - vidya@shippable.com
     - buildsampletest@gmail.com
-
 
 #cache: true
 
