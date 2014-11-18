@@ -12,7 +12,7 @@ install: pip install --use-mirrors -r requirements.txt
 
 
 
-script:
+script
   - python sqliteSample.py
   - echo $test
 
