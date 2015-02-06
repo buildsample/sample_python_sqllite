@@ -12,9 +12,11 @@ language: python
 
 install: pip install --use-mirrors -r requirements.txt
 
+
 script:
   - python sqliteSample.py
   - echo $test
+
 
 notifications:
   email: 
@@ -26,4 +28,4 @@ notifications:
 
 after_script:
   - cp README.md ./shippable
-#build_image: shippable/minv2:beta
+
