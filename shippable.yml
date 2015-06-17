@@ -8,3 +8,5 @@ notifications:
   email: 
     - vidya@shippable.com
     - buildsampletest@gmail.com
+    
+archive: true
