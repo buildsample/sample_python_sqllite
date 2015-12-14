@@ -25,6 +25,7 @@ notifications:
 
 #test
 #cache: true
+build_image: drydock/u12pytpls:tip
 
 after_script:
   - cp README.md ./shippable
