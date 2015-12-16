@@ -24,7 +24,7 @@ notifications:
     - vidya@shippable.com
     - buildsampletest@gmail.com
 
-
+build_image: drydock/u12pytall:tip
 #cache: true
 
 after_script:
