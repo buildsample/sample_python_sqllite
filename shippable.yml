@@ -1,6 +1,7 @@
 python:
   #- "2.6"
   - "2.7"
+  - pypy
 archive: true
 
 env:
@@ -24,7 +25,7 @@ notifications:
     - vidya@shippable.com
     - buildsampletest@gmail.com
 
-build_image: drydock/u14pytpls:tip
+build_image: drydock/u14pytall:tip
 #cache: true
 
 after_script:
